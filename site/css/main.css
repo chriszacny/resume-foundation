@@ -95,9 +95,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: Arial, Verdana, sans-serif !important;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Verdana, sans-serif !important;
+}
 
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 0px;
+}
+
+li {
+    font-size: 12px;
+}
+
+.location-keys {
+    font-weight: bold;
+}
 
 
 
