@@ -133,6 +133,7 @@ h4 {
 
 h5 {
     font-size: 12px;
+    font-weight: bold;
 }
 
 p {
@@ -173,8 +174,13 @@ li {
     border-width: 3px;
 }
 
+.bold {
+    font-weight: bold;
+}
 
-
+.employment-date {
+    text-align: right;
+}
 
 
 
