@@ -1,3 +1,4 @@
 defaults.json
-sites/resume.html
+pyvirtualenv/
+site/resume.html
 resume.pdf
