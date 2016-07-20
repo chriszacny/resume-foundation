@@ -26,24 +26,24 @@
         <div class="row contact-info">
             <div class="small-6 column name-position">
                 <h1>Christopher M. Zacny</h1>
-                <h2>Developer</h2>    
+                <h2>Developer</h2>
             </div>
             <div class="small-6 column">
                 <div class="row">
                     <div class="small-3 column"><p class="location-keys">Phone</p></div>
-                    <div class="small-9 column"><p>111-111-1111</p></div>
+                    <div class="small-9 column"><p>{{ model['phone'] }}</p></div>
                 </div>
                 <div class="row">
                     <div class="small-3 column"><p class="location-keys">Email</p></div>
-                    <div class="small-9 column"><p>something@somewhere.com</p></div>
+                    <div class="small-9 column"><p>{{ model['email_address'] }}</p></div>
                 </div>
                 <div class="row">
                     <div class="small-3 column"><p class="location-keys">Website</p></div>
-                    <div class="small-9 column"><p>www.chriszacny.com</p></div>
+                    <div class="small-9 column"><p>{{ model['website'] }}</p></div>
                 </div>
                 <div class="row">
                     <div class="small-3 column"><p class="location-keys">Location</div>
-                    <div class="small-9 column"><p>Greater Seattle Area</p></div>
+                    <div class="small-9 column"><p>{{ model['location'] }}</p></div>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <h4>Methodologies</h4>
                     <ul>
                         <li><span class="bold">Software Engineering:</span> Full-Stack Development, ALM / SDLC, SOA, UML, Agile, TDD, Parallel Computing</li>
-                        <li><span class="bold">Design Patterns:</span> GoF, Enterprise Integration, Enterprise Application</li>                        
+                        <li><span class="bold">Design Patterns:</span> GoF, Enterprise Integration, Enterprise Application</li>
                     </ul>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <li>Developed operational infrastructure for real-time monitoring of a custom-built, Enterprise Messaging Bus (millions of messages per day). Technologies used: Python, Java, Ansible, Esper, and Bottle.</li>
                     <li>Developed latest version of "agentless" remote execution scheduling application responsible for centralized scheduling of ~500 Linux and Windows processes. Technologies used: Front-end: ASP.NET MVC, jQuery Mobile, HTML 5; Back-end: Python, WCF</li>
                     <li>Developed File / Business Monitoring Applications that monitored over 700 file inputs and ran SQL-based checks against business data sources. Optimized for large television layout.</li>
-                    <li>Extensive Big Data Sharding / ETL based on input from Exchanges (Equities, Futures, Options), Clearing Houses, and other sources.</li>                 
+                    <li>Extensive Big Data Sharding / ETL based on input from Exchanges (Equities, Futures, Options), Clearing Houses, and other sources.</li>
                 </ul>
             </div>
             <div>
